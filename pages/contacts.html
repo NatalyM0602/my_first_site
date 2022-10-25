@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Учебный сайт</title>
+
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap " rel="stylesheet">
+        <script defer src="../js/login-popup.js"></script>
+    </head>
+
+    <body class="page">
+        <header class="header">
+            <img class="site-logo" src="../img/aquarius.svg" alt="логотип">
+            <ul class="site-menu">
+                <li><a class="menu-link" href="../index.html">Главная</a></li>
+                <li><a class="menu-link" href="students.html">Студенты</a></li>
+                <li><a class="menu-link" href="about.html">О курсе</a></li>
+                <li><a class="menu-link active-link" href="#">Контакты</a></li>
+            </ul>
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-from form" action="#" method="get">
+                    <input class="login-input" name="login" type="text" placeholder="Логин" required=""><br>
+                    <input class="login-password" name="password" type="password" placeholder="Пароль" required="">
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+            </div>
+        </header>
+        <main class="main main-contact">
+            <h1 class="main-heading contacts-heading">Как нас найти 🗺️</h1>
+            <div style="position:relative;overflow:hidden;"><a
+                    href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+                    href="https://yandex.ru/maps/2/saint-petersburg/house/dvortsovaya_ploshchad_2/Z0kYdQZiQUQDQFtjfXV1cXxrZg==/?ll=30.312814%2C59.940082&utm_medium=mapframe&utm_source=maps&z=16.48"
+                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Дворцовая площадь, 2 —
+                    Яндекс Карты</a><iframe class="contacts-map" src="https://yandex.ru/map-widget/v1/-/CCUZZEu3cC"
+                    width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+            <h2 class="contacts-text">Наши контакты</h2>
+            <address class="contacts-adress">
+                <p>Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
+                <a class="contact-tel" href="tel:+78125555555">Тел. +7(812)555-55-55</a>
+            </address>
+        </main>
+        <footer class="footer">
+            <p class="copyright">2022 &copy; <a class="innopol-link" href="https://innopolis.com/">Учебный центр</a></p>
+        </footer>
+    </body>
+
+</html>

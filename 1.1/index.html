@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Учебный сайт</title>
+        <link rel="stylesheet" href="./intex.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="/1.1/intex.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap " rel="stylesheet">
+        <script defer src="../js/login-popup.js"></script>
+    </head>
+
+    <body class="page">
+        <header class="header">
+            <img class="site-logo" src="../img/aquarius.svg" alt="логотип">
+            <ul class="site-menu">
+                <li><a class="menu-link" href="../index.html">Главная</a></li>
+                <li><a class="menu-link active-link" href="#">Студенты</a></li>
+                <li><a class="menu-link" href="../pages/about.html">О курсе</a></li>
+                <li><a class="menu-link" href="../pages/contacts.html">Контакты</a></li>
+            </ul>
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-from form" action="#" method="get">
+                    <input class="login-input" name="login" type="text" placeholder="Логин" required=""><br>
+                    <input class="login-password" name="password" type="password" placeholder="Пароль" required="">
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+            </div>
+        </header>
+        <main class="main">
+            <div class="app-contect">
+                <div class="part-1">
+                    <p class="my-name"><strong> Меркурисова Наталия Александровна</strong></p> <br>
+                </div>
+                <div class="part-2">
+                    <img class="photo-me" src="./img/PerfectFace_190603114306.png" alt="me" width="200" height="300">
+                    <p class="about-me">Возраст: 36 лет</p>
+                    <p class="about-me">Семейное положение: замужем</p>
+                    <p class="about-me">Контакты:</p>
+                    <a href="tel:+79031234567">+7(903)123-45-67</a><br>
+                    <a href="mailto:ina@gmail.com">ina@gmail.com</a>
+                    <p class="about-me">Ключевые навыки</p>
+                    <ol>
+                        <li>Пользователь ПК</li>
+                        <li>Работа с большими объектами информации</li>
+                        <li> Знание программ:
+                            <ul>
+                                <li>Office</li>
+                                <li>MS Excel</li>
+                                <li>Photo Editor</li>
+                                <li>Visual Studio Code</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <p class="about-me">Образование</p>
+                    <table class="prices">
+                        <tr style="background-color: darksalmon;">
+                            <th>Годы обучения</th>
+                            <th> Учебное заведение</th>
+                            <th>Специализация</th>
+                        </tr>
+                        <tr>
+                            <th>2003-2007</th>
+                            <td>Московская Академия Экономики и Права</td>
+                            <td> Экономист</td>
+                        </tr>
+                        <tr>
+                            <th>май 2022- июнь 2022</th>
+                            <td>ГБОУ ДПО ЦЕНТР ПРОФЕССИОНАЛ</td>
+                            <td> Кадровый учет в 1С ЗУП</td>
+                        </tr>
+                        <tr>
+                            <th> август 2022- настоящее время</th>
+                            <td>Университет Иннополис</td>
+                            <td> веб верстка</td>
+                        </tr>
+                    </table>
+                    <p class="about-me">Немного об обучении:</p>
+                    <p class="about-me"> На данный моммент <a class="web" href="https://habr.com/ru/post/537384/">
+                            веб-верстальщик</a>-это самая актуальная профессия, но к сожалению,
+                        таких специалистов очень мало.<br>
+                        В Университете Иннополис, я как раз обучаюсь этой професией и хочу стать грамотным специалистом.
+                        Обучение мне это очень нравится. Я узнаю очень много нового и увлекательного.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">2022 &copy; <a class="innopol-link" href="https://innopolis.com/">Учебный центр</a></p>
+        </footer>
+    </body>
+
+</html>
